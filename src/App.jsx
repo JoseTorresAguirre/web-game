@@ -8,6 +8,9 @@ import SingUp from "./pages/SingUp";
 import Play from "./pages/log/Play";
 import Jugar from "./pages/log/Jugar";
 import NewGame from "./pages/log/game/NewGame";
+import Foro from "./pages/Foro";
+import Noticias from "./pages/Noticias";
+import Tienda from "./pages/Tienda";
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
           <Route path="/play" element={<Play />} />
           <Route path="/jugar" element={<Jugar />} />
           <Route path="/newgame" element={<NewGame />} />
+          <Route path="/foro" element={<Foro />} />
+          <Route path="/noticias" element={<Noticias />} />
+          <Route path="/tienda" element={<Tienda />} />
         </Routes>
 
         <Footer></Footer>

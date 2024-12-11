@@ -36,19 +36,19 @@ const NavBar = () => {
                 Home
               </Link>
               <Link
-                to="/"
+                to="/foro"
                 className="cursor-pointer text-white hover:text-yellow-500"
               >
                 Foro
               </Link>
               <Link
-                to="/"
+                to="/noticias"
                 className="cursor-pointer text-white hover:text-yellow-500"
               >
                 Noticias
               </Link>
               <Link
-                to="/"
+                to="/tienda"
                 className="cursor-pointer text-white hover:text-yellow-500"
               >
                 Tienda
